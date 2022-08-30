@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.0)
 
-set(MODULE_NAME "_ece3210_lab01_ex")
+set(MODULE_NAME "_ece3210_pybind11_ex")
 project(${MODULE_NAME})
 
 # general setup

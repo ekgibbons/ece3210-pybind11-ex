@@ -30,9 +30,9 @@ py::array_t<double> double_array_cpp(py::array_t<double> a_np)
 }
 
 
-PYBIND11_MODULE(_ece3210_lab01_ex, m)
+PYBIND11_MODULE(_ece3210_pybind11_ex, m)
 {
-    m.doc() = "a collection of examples for ECE 3210 lab 1";
+    m.doc() = "a simple example of pybind11";
     m.def("double_array", &double_array_cpp,
           "doubles the values in a numpy array");
 }
